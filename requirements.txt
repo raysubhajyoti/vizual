@@ -2,6 +2,5 @@ img2pdf
 google.generativeai
 pandas 
 matplotlib
-threading
 dataframe_image 
 seaborn
