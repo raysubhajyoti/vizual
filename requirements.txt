@@ -1,5 +1,5 @@
 img2pdf
-google.generativeai as genai
+google.generativeai
 pandas 
 math
 os
