@@ -1,7 +1,6 @@
 img2pdf
 google.generativeai
 pandas 
-matplotlib.pyplot
 matplotlib
 threading
 dataframe_image 
