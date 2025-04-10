@@ -1,0 +1,13 @@
+img2pdf
+google.generativeai as genai
+pandas 
+math
+os
+matplotlib.pyplot as plt
+io
+base64
+matplotlib
+threading
+time
+dataframe_image 
+seaborn
