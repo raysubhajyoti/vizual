@@ -1,12 +1,8 @@
 img2pdf
 google.generativeai
 pandas 
-os
 matplotlib.pyplot
-io
-base64
 matplotlib
 threading
-time
 dataframe_image 
 seaborn
