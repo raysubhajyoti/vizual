@@ -16,7 +16,7 @@ import seaborn as  sns
 matplotlib.use('agg')
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyDcnxupwsL7t70lAbcsEE8dJgO53d-olwU")
+genai.configure(api_key="xxx")
 model = genai.GenerativeModel('gemini-1.5-flash-002')
 filename="https://gist.githubusercontent.com/noamross/e5d3e859aa0c794be10b/raw/b999fb4425b54c63cab088c0ce2c0d6ce961a563/cars.csv"
 df=''
