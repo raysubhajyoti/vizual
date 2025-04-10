@@ -1,7 +1,6 @@
 img2pdf
 google.generativeai
 pandas 
-math
 os
 matplotlib.pyplot
 io
