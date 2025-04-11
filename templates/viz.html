@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<body>
+    <h2>The following vizualization will be attempted. Please wait...:</h2>
+	<h3><span style="color: blue;"> Expect about {{timetomake}} seconds to complete</h3></span> 
+	 
+    {% for index, line in lines %}
+      <p>  
+	      {{line }}
+	      <span style="color: blue;"> {{done[index]}} </span></p>
+    {% endfor %}
+	
+        <script>
+            setTimeout(() => {
+                window.location.reload();
+            }, 3000);
+        </script>
+    
+</body>
+</html>

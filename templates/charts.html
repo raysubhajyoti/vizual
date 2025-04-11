@@ -1,0 +1,24 @@
+<!doctype>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<h2>Descriptive Summary of the data</h2>
+	{{summary | safe}}
+    <h2>Here are the {{numbv}} vizualizations </h2>
+    
+
+{% for i in range(numbv) %}
+<embed src=/static/img{{i}}.pdf alt="My Image" width="400"  height="400">
+
+{% endfor %}
+<br>
+<form method="POST" action="/"> 
+        <input type="submit" value="GoBack">
+    </form>
+<form method="POST" action="/download"> 
+        <input type="submit" value="Download to PDF">
+    </form>
+</body>
+</html>

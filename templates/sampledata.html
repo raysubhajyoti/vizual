@@ -1,0 +1,9 @@
+ <!doctype html>
+    <html>
+    <head><title>User Input</title></head>
+    <body>
+     Here are the column names:  {{colnames}}  and some sample data <li>   {{fiverecords| safe}} /<li>
+    <form method="POST" action="/colnames">Which varibable in dependent variable: 
+        <input type="text" name="user_input" required>
+        <input type="submit" value="Submit">
+    </form>
