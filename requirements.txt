@@ -1,6 +1,6 @@
-img2pdf
+pypdf
 google.generativeai
 pandas 
 matplotlib
-dataframe_image 
+matplotlib
 seaborn
